@@ -1,0 +1,421 @@
+|--- feature_5 <= 0.35
+|   |--- feature_5 <= 0.15
+|   |   |--- feature_6 <= 0.00
+|   |   |   |--- feature_5 <= 0.10
+|   |   |   |   |--- feature_5 <= 0.07
+|   |   |   |   |   |--- feature_5 <= 0.06
+|   |   |   |   |   |   |--- feature_5 <= 0.02
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- feature_5 >  0.02
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- feature_5 >  0.06
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- feature_5 >  0.07
+|   |   |   |   |   |--- feature_5 <= 0.08
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- feature_5 >  0.08
+|   |   |   |   |   |   |--- feature_5 <= 0.09
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- feature_5 >  0.09
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- feature_5 >  0.10
+|   |   |   |   |--- feature_5 <= 0.11
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- feature_5 >  0.11
+|   |   |   |   |   |--- feature_5 <= 0.14
+|   |   |   |   |   |   |--- feature_5 <= 0.12
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- feature_5 >  0.12
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- feature_5 >  0.14
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- feature_6 >  0.00
+|   |   |   |--- feature_1 <= 0.00
+|   |   |   |   |--- feature_5 <= 0.07
+|   |   |   |   |   |--- feature_5 <= 0.03
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- feature_5 >  0.03
+|   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |--- feature_2 <= 0.00
+|   |   |   |   |   |   |   |   |--- feature_2 <= 0.00
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- feature_2 >  0.00
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- feature_2 >  0.00
+|   |   |   |   |   |   |   |   |--- feature_2 <= 0.00
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- feature_2 >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |--- feature_0 <= 0.07
+|   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_0 <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_0 >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- feature_2 >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- feature_0 >  0.07
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- feature_5 >  0.07
+|   |   |   |   |   |--- feature_5 <= 0.11
+|   |   |   |   |   |   |--- feature_5 <= 0.10
+|   |   |   |   |   |   |   |--- feature_3 <= 0.00
+|   |   |   |   |   |   |   |   |--- feature_2 <= 0.09
+|   |   |   |   |   |   |   |   |   |--- feature_5 <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 49
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- feature_5 >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- feature_5 <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- feature_5 >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 41
+|   |   |   |   |   |   |   |   |--- feature_2 >  0.09
+|   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.17
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- feature_2 >  0.17
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- feature_3 >  0.00
+|   |   |   |   |   |   |   |   |--- feature_3 <= 0.05
+|   |   |   |   |   |   |   |   |   |--- feature_5 <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- feature_5 <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- feature_5 >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- feature_5 >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- feature_3 >  0.05
+|   |   |   |   |   |   |   |   |   |--- feature_5 <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- feature_5 >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- feature_5 >  0.10
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- feature_5 >  0.11
+|   |   |   |   |   |   |--- feature_3 <= 0.02
+|   |   |   |   |   |   |   |--- feature_3 <= 0.00
+|   |   |   |   |   |   |   |   |--- feature_5 <= 0.14
+|   |   |   |   |   |   |   |   |   |--- feature_5 <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 28
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 43
+|   |   |   |   |   |   |   |   |   |--- feature_5 >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- feature_5 >  0.14
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 31
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- feature_3 >  0.00
+|   |   |   |   |   |   |   |   |--- feature_3 <= 0.01
+|   |   |   |   |   |   |   |   |   |--- feature_3 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |--- feature_3 >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_5 <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 27
+|   |   |   |   |   |   |   |   |   |   |--- feature_5 >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- feature_3 >  0.01
+|   |   |   |   |   |   |   |   |   |--- feature_5 <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 34
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- feature_5 >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- feature_3 >  0.02
+|   |   |   |   |   |   |   |--- feature_5 <= 0.13
+|   |   |   |   |   |   |   |   |--- feature_3 <= 0.05
+|   |   |   |   |   |   |   |   |   |--- feature_3 <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- feature_3 >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
+|   |   |   |   |   |   |   |   |--- feature_3 >  0.05
+|   |   |   |   |   |   |   |   |   |--- feature_3 <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- feature_3 >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 <= 0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- feature_3 >  0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- feature_5 >  0.13
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- feature_1 >  0.00
+|   |   |   |   |--- feature_5 <= 0.08
+|   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |--- feature_1 <= 0.00
+|   |   |   |   |   |   |   |   |--- feature_1 <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- feature_1 >  0.00
+|   |   |   |   |   |   |   |   |   |--- feature_1 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- feature_1 >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- feature_1 >  0.00
+|   |   |   |   |   |   |   |   |--- feature_1 <= 0.00
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- feature_1 >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |--- feature_1 <= 0.02
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- feature_1 >  0.02
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- feature_5 >  0.08
+|   |   |   |   |   |--- class: 0
+|   |--- feature_5 >  0.15
+|   |   |--- feature_2 <= 0.01
+|   |   |   |--- feature_5 <= 0.16
+|   |   |   |   |--- class: 0
+|   |   |   |--- feature_5 >  0.16
+|   |   |   |   |--- feature_5 <= 0.29
+|   |   |   |   |   |--- feature_5 <= 0.22
+|   |   |   |   |   |   |--- feature_5 <= 0.17
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- feature_5 >  0.17
+|   |   |   |   |   |   |   |--- feature_0 <= 0.11
+|   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |--- feature_0 <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- feature_0 >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- feature_0 <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- feature_0 >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- feature_0 >  0.11
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- feature_5 >  0.22
+|   |   |   |   |   |   |--- feature_2 <= 0.00
+|   |   |   |   |   |   |   |--- feature_0 <= 0.09
+|   |   |   |   |   |   |   |   |--- feature_3 <= 0.00
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_0 <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- feature_0 >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- feature_3 >  0.00
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |--- feature_0 >  0.09
+|   |   |   |   |   |   |   |   |--- feature_0 <= 0.12
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- feature_0 >  0.12
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- feature_2 >  0.00
+|   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |--- feature_2 <= 0.01
+|   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- feature_2 >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- feature_2 >  0.01
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- feature_5 >  0.29
+|   |   |   |   |   |--- class: 0
+|   |   |--- feature_2 >  0.01
+|   |   |   |--- feature_5 <= 0.29
+|   |   |   |   |--- feature_6 <= 0.03
+|   |   |   |   |   |--- feature_5 <= 0.22
+|   |   |   |   |   |   |--- feature_5 <= 0.17
+|   |   |   |   |   |   |   |--- feature_5 <= 0.16
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- feature_5 >  0.16
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- feature_5 >  0.17
+|   |   |   |   |   |   |   |--- feature_2 <= 0.03
+|   |   |   |   |   |   |   |   |--- feature_2 <= 0.01
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- feature_2 >  0.01
+|   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- feature_2 >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- feature_2 >  0.03
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- feature_5 >  0.22
+|   |   |   |   |   |   |--- feature_2 <= 0.03
+|   |   |   |   |   |   |   |--- feature_2 <= 0.03
+|   |   |   |   |   |   |   |   |--- feature_2 <= 0.02
+|   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- feature_6 >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |--- feature_2 >  0.02
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- feature_2 >  0.03
+|   |   |   |   |   |   |   |   |--- feature_6 <= 0.02
+|   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- feature_2 >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- feature_6 >  0.02
+|   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- feature_2 >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- feature_2 >  0.03
+|   |   |   |   |   |   |   |--- feature_6 <= 0.02
+|   |   |   |   |   |   |   |   |--- feature_2 <= 0.04
+|   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- feature_2 >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- feature_2 >  0.04
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- feature_6 >  0.02
+|   |   |   |   |   |   |   |   |--- feature_6 <= 0.02
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- feature_6 >  0.02
+|   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- feature_2 >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- feature_6 >  0.03
+|   |   |   |   |   |--- feature_5 <= 0.17
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- feature_5 >  0.17
+|   |   |   |   |   |   |--- feature_6 <= 0.03
+|   |   |   |   |   |   |   |--- feature_2 <= 0.05
+|   |   |   |   |   |   |   |   |--- feature_2 <= 0.05
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- feature_2 >  0.05
+|   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- feature_2 >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- feature_2 >  0.05
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- feature_6 >  0.03
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |--- feature_5 >  0.29
+|   |   |   |   |--- class: 0
+|--- feature_5 >  0.35
+|   |--- class: 2
