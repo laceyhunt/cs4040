@@ -1,0 +1,85 @@
+Results of various genetic algorithm iterations:
+Population size: 100, # Generations: 100, Mutation Rate: 0.1
+Candies: 
+	Fruit:['Starburst', 'Tootsie Pop', 'Skittles original', 'Skittles wildberry', 'Dum Dums']
+	Chocolate:["Reese's Miniatures", 'Snickers', 'Milky Way Midnight', "Reese's Peanut Butter cup", 'Kit Kat', '3 Musketeers', 'Milky Way']
+Candy Units: 15
+Factory Profit 8019514.41
+
+Population size: 100, # Generations: 100, Mutation Rate: 0.2
+Candies: 
+	Fruit:['Skittles original', 'Lifesavers big ring gummies', 'Starburst', 'Twizzlers', 'Tootsie Pop', 'Lemonhead']
+	Chocolate:['3 Musketeers', 'Kit Kat', "Reese's Miniatures", "Reese's Peanut Butter cup", 'Milky Way', 'Snickers', "Hershey's Kisses"]
+Candy Units: 16
+Factory Profit 8499585.6
+
+Population size: 100, # Generations: 100, Mutation Rate: 0.3
+Candies: 
+	Fruit:['Lifesavers big ring gummies', 'Starburst', 'Sour Patch Kids', 'Skittles original', 'Dum Dums']
+	Chocolate:["Reese's Peanut Butter cup", 'Milky Way', "Reese's Miniatures", '3 Musketeers', "Peanut butter M&M's", 'Snickers', 'Kit Kat']
+Candy Units: 16
+Factory Profit 8254851.36
+
+Population size: 100, # Generations: 100, Mutation Rate: 0.4
+Candies: 
+	Fruit:['Lifesavers big ring gummies', 'Laffy Taffy', 'Starburst', 'Tootsie Pop', 'Twizzlers', 'Dum Dums', 'Lemonhead']
+	Chocolate:['Snickers', 'Kit Kat', "Reese's Miniatures", "Reese's Peanut Butter cup", 'Milky Way', "Reese's stuffed with pieces", "Reese's pieces"]
+Candy Units: 16
+Factory Profit 8633947.21
+
+Population size: 100, # Generations: 100, Mutation Rate: 0.3
+Candies: 
+	Fruit:['Lifesavers big ring gummies', 'Sour Patch Kids', 'Twizzlers', 'Starburst', 'Skittles original']
+	Chocolate:["Reese's Miniatures", "Reese's Peanut Butter cup", "Reese's stuffed with pieces", 'Kit Kat', 'Snickers', 'Milky Way', '3 Musketeers', 'Milky Way Midnight']
+Candy Units: 16
+Factory Profit 8897171.68
+
+Population size: 200, # Generations: 100, Mutation Rate: 0.3
+Candies: 
+	Fruit:['Sour Patch Kids', 'Starburst', 'Lifesavers big ring gummies', 'Twizzlers', 'Air Heads', 'Tootsie Pop']
+	Chocolate:['Kit Kat', "Reese's Peanut Butter cup", "Reese's Miniatures", 'Snickers', "Hershey's Kisses", "Reese's stuffed with pieces", 'Milky Way']
+Candy Units: 16
+Factory Profit 8516771.02
+
+Population size: 300, # Generations: 100, Mutation Rate: 0.3
+Candies: 
+	Fruit:['Sour Patch Kids', 'Starburst', 'Skittles original', 'Lifesavers big ring gummies', 'Tootsie Pop']
+	Chocolate:['Snickers', "Reese's Miniatures", 'Milky Way', "Reese's Peanut Butter cup", '3 Musketeers', 'Kit Kat', 'Twix', "Reese's stuffed with pieces"]
+Candy Units: 16
+Factory Profit 8893728.47
+
+Population size: 400, # Generations: 100, Mutation Rate: 0.3
+Candies: 
+	Fruit:['Lifesavers big ring gummies', 'Twizzlers', 'Starburst', 'Laffy Taffy', 'Dum Dums', 'Tootsie Pop', 'Air Heads']
+	Chocolate:["Reese's Peanut Butter cup", "Reese's Miniatures", 'Snickers', 'Kit Kat', "Hershey's Kisses", '3 Musketeers', "Reese's stuffed with pieces"]
+Candy Units: 16
+Factory Profit 8663778.87
+
+Population size: 100, # Generations: 100, Mutation Rate: 0.3
+Candies: 
+	Fruit:['Lifesavers big ring gummies', 'Starburst', 'Sour Patch Kids', 'Skittles original', 'Warheads']
+	Chocolate:["Reese's Miniatures", "Reese's stuffed with pieces", 'Kit Kat', 'Twix', "Reese's Peanut Butter cup", '3 Musketeers', 'Milky Way', 'Snickers']
+Candy Units: 16
+Factory Profit 8835208.12
+
+Population size: 100, # Generations: 200, Mutation Rate: 0.3
+Candies: 
+	Fruit:['Skittles original', 'Starburst', 'Lifesavers big ring gummies', 'Sour Patch Kids', 'Twizzlers']
+	Chocolate:['Twix', "Reese's Miniatures", 'Kit Kat', 'Snickers', "Reese's Peanut Butter cup", '3 Musketeers', 'Milky Way', "Reese's stuffed with pieces"]
+Candy Units: 16
+Factory Profit 8924043.41
+
+Population size: 100, # Generations: 300, Mutation Rate: 0.3
+Candies: 
+	Fruit:['Starburst', 'Twizzlers', 'Lifesavers big ring gummies', 'Sour Patch Kids', 'Dum Dums', 'Laffy Taffy']
+	Chocolate:["Reese's Miniatures", '3 Musketeers', 'Kit Kat', 'Snickers', "Reese's Peanut Butter cup", "Reese's stuffed with pieces", 'Milky Way', 'Milky Way Midnight']
+Candy Units: 16
+Factory Profit 9043708.12
+
+Population size: 100, # Generations: 400, Mutation Rate: 0.3
+Candies: 
+	Fruit:['Tootsie Pop', 'Lifesavers big ring gummies', 'Skittles original', 'Twizzlers', 'Starburst', 'Laffy Taffy']
+	Chocolate:["Reese's Miniatures", 'Milky Way', 'Kit Kat', "Reese's Peanut Butter cup", 'Snickers', "Hershey's Kisses", "Reese's stuffed with pieces"]
+Candy Units: 16
+Factory Profit 8524533.85
+
